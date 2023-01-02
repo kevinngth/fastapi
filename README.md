@@ -16,3 +16,7 @@
 
 -   install FastAPI and dependencies: `pip install fastapi[all]`
     (seems to work on bash but not zsh)
+
+### Run app
+
+-   run app using uvicorn: `uvicorn books:app --reload`
